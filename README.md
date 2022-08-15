@@ -13,7 +13,10 @@ This is a source code associated with a paper with a title: <br/>
 
 
 
-## How to run
+## How to run 
+
+
+### Generation
 
 * js-gan
 
