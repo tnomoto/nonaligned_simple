@@ -1,6 +1,6 @@
 # Simplification with Non-Aligned Data
 
-This is a source code associated with a paper with a title: <br/>
+This is a source code accompanying a paper: <br/>
 [**Learning to Simplify with Data Hopelessly Out of Alignment**](https://arxiv.org/2204.00741).  
 
 ## Pre-requisites
