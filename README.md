@@ -4,11 +4,11 @@ This is a source code associated with [a paper with a title **Learning to Simpli
 
 # Pre-requisites
 
-*Python 3.6
-*torch                   1.3.1
-*torchaudio              0.10.0+cu113
-*torchtext               0.5.0
-*torchvision             0.11.1+cu113
+* Python 3.6
+* torch                   1.3.1
+* torchaudio              0.10.0+cu113
+* torchtext               0.5.0
+* torchvision             0.11.1+cu113
 
 
 
@@ -16,20 +16,19 @@ This is a source code associated with [a paper with a title **Learning to Simpli
 
 * js-gan
 
-'''bash
+```bash
 cd js
 ../util/generate.sh -t tsd
 
-''' 
+```
 
 * wasser-gan
 
-'''bash
-
+```bash
 cd wasser
 ../util/generate.sh -t tsd
 
-'''
+````
 
 
 
