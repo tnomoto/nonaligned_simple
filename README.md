@@ -22,7 +22,7 @@ This is a source code associated with a paper with a title: <br/>
 
 ```bash
 cd js
-../util/generate.sh -t tsd
+../util/generate.sh -d tsd
 
 ```
 
@@ -30,12 +30,24 @@ cd js
 
 ```bash
 cd wasser
-../util/generate.sh -t tsd
+../util/generate.sh -d tsd
 
 ````
 
 ### Training
 
 
+```bash
+cd js
+../util/train.sh -d tsd -b 64 -g 1
 
+```
+
+* wasser-gan
+
+```bash
+cd wasser
+../util/train.sh -d tsd -b 64 -g 1
+
+````
 
