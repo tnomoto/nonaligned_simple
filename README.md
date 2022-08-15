@@ -1,7 +1,7 @@
 # Simplification with Non-Aligned Data
 
 This is a source code associated with a paper with a title: <br/>
-[**Learning to Simplify with Data Hopelessly Out of Alignment**](https://arxiv.org/2204.00741).  
+[**Learning to Simplify with Data Hopelessly Out of Alignment**](learn.html).  
 
 ## Pre-requisites
 
@@ -50,4 +50,5 @@ cd wasser
 ../util/train.sh -d tsd -b 64 -g 1
 
 ````
+
 
