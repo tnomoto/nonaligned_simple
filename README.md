@@ -50,5 +50,18 @@ cd wasser
 ../util/train.sh -d tsd -b 64 -g 1
 
 ````
-![](./learn.svg)
+## References
+
+```bibtex
+  @misc{https://doi.org/10.48550/arxiv.2204.00741,
+  doi = {10.48550/ARXIV.2204.00741},
+  url = {https://arxiv.org/abs/2204.00741},
+  author = {Nomoto, Tadashi},
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Learning to Simplify with Data Hopelessly Out of Alignment},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+```
 
