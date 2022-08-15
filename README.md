@@ -3,7 +3,7 @@
 This is a source code associated with a paper with a title: <br/>
 [**Learning to Simplify with Data Hopelessly Out of Alignment**](https://arxiv.org/2204.00741).  
 
-# Pre-requisites
+## Pre-requisites
 
 * Python 3.6
 * torch                   1.3.1
@@ -13,7 +13,7 @@ This is a source code associated with a paper with a title: <br/>
 
 
 
-# How to run
+## How to run
 
 * js-gan
 
