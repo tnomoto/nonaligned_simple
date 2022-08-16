@@ -52,7 +52,7 @@ cd wasser
 
 ## Data
 
-The training data (found in ./data) comes from [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017).
+The training data (found in ./data) comes from [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). Both the training and test sets are referred to as 'tsd' in our setup.
 
 					  
 
