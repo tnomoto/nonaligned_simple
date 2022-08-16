@@ -13,10 +13,16 @@ This is a source code that supplements a paper: <br/>
 * sentencepiece           0.1.9 (together with its python library)
 
 
+## Installing
 
-## How to run 
+Download the following and untar at the project's top directory.
 
-### Training
+* [asset.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRH_zzprmcuByqm4)
+* [js-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRIUDqy4Q39JAXIg)
+* [wasser-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRPTdT6icsRPTh1T)
+
+
+## Training
 
 
 ```bash
@@ -37,7 +43,7 @@ cd wasser
 -b : batch size<br/>
 -g : GPU ID<br/>
 
-### Generation
+## Generation
 
 ## Using pre-trained models
 
@@ -75,9 +81,9 @@ cd js
 ````
 You find the result in js/data/tsd/pred_decoded.txt.
 
-## Data
+## About Data
 
-You need to separetly download [data](https://1drv.ms/u/s!Ahv4QmK34dXhgQ13G4Pr5vG_njS4) and depoy in the project top directory. The training data is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We removed source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). 
+The training data is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We removed source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). 
 
 
 ## References
