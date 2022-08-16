@@ -64,7 +64,7 @@ The result in wasser/data/tsd/pred.out.
 
 #### Detokenization
 
-***generate.sh*** gives you a result in a sentence-piece format. Running the following will turn it into a normal text.
+***generate.sh*** gives you a result in a sentence-piece format. Running the following will restore it into a normal text.
 
 ```bash
 cd js
