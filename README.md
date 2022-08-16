@@ -74,7 +74,7 @@ You find the result in js/data/tsd/pred_decoded.txt.
 
 ## Data
 
-The training data (found in ./data) is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). Both the training and test sets are referred to as 'tsd' in our setup.
+The training data (in ./data) is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). 
 
 					  
 
