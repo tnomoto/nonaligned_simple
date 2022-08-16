@@ -1,7 +1,7 @@
-# Simplification with Non-Aligned Data
+# Simplification on Non-Aligned Data
 
 This is a source code that supplements a paper: <br/>
-[**Learning to Simplify with Data Hopelessly Out of Alignment**](https://arxiv.org/2204.00741).  
+[**Learning to Simplify with Data Hopelessly Out of Alignment**](https://arxiv.org/2204.00741), published on ArXiv. 
 
 ## Pre-requisites
 
@@ -10,7 +10,6 @@ This is a source code that supplements a paper: <br/>
 * torchaudio              0.10.0+cu113
 * torchtext               0.5.0
 * torchvision             0.11.1+cu113
-
 
 
 ## How to run 
@@ -50,6 +49,28 @@ cd wasser
 ../util/train.sh -d tsd -b 64 -g 1
 
 ````
+
+## Data
+
+The training data (found in ./data) comes from [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017).
+```bibtex
+@inproceedings{zhang-lapata-2017-sentence,
+    title = "Sentence Simplification with Deep Reinforcement Learning",
+        author = "Zhang, Xingxing  and
+      Lapata, Mirella",
+          booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+	      month = sep,
+	          year = "2017",
+		      address = "Copenhagen, Denmark",
+		          publisher = "Association for Computational Linguistics",
+			      url = "https://aclanthology.org/D17-1062",
+			          doi = "10.18653/v1/D17-1062",
+				      pages = "584--594",
+
+ }
+ ```
+					  
+
 ## References
 
 ```bibtex
