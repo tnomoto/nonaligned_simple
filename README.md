@@ -10,6 +10,8 @@ This is a source code that supplements a paper: <br/>
 * torchaudio              0.10.0+cu113
 * torchtext               0.5.0
 * torchvision             0.11.1+cu113
+* sentencepiece           0.1.9
+
 
 
 ## How to run 
