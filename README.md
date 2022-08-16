@@ -13,7 +13,7 @@ This is a source code that supplements a paper: <br/>
 * sentencepiece           0.1.9 (together with its python library)
 
 
-## Installing
+## Setting it up 
 
 Download and untar the following at the project's top directory.
 
