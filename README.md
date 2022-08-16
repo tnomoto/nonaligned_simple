@@ -39,7 +39,7 @@ cd wasser
 
 ### Generation
 
-As a trained model is provided as part of the package, you can bypass training and go to the generation step directly.
+As a trained model is provided as part of the package, you can bypass training and go to the generation step directly. Here is what you do. 
 
 * js-gan
 
