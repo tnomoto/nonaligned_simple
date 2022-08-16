@@ -21,7 +21,7 @@ while getopts ":d:b:g:" o; do
 done
 
 
-data_dir=./data/${train_dir_0}
+data_dir=./resource/${train_dir_0}
 
 #batch_size=128
 
