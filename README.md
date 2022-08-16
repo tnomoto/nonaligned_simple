@@ -39,6 +39,8 @@ cd wasser
 
 ### Generation
 
+As the trained model is provided as part of the package, you can bypass training and go to the generation step directly, if this is something you want to do.
+
 * js-gan
 
 ```bash
