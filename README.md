@@ -14,25 +14,6 @@ This is a source code that supplements a paper: <br/>
 
 ## How to run 
 
-
-### Generation
-
-* js-gan
-
-```bash
-cd js
-../util/generate.sh -d tsd
-
-```
-
-* wasser-gan
-
-```bash
-cd wasser
-../util/generate.sh -d tsd
-
-````
-
 ### Training
 
 
@@ -50,6 +31,43 @@ cd wasser
 
 ````
 
+-d : dataset name
+-b : batch size
+-g : GPU ID
+
+### Generation
+
+* js-gan
+
+```bash
+cd js
+../util/generate.sh -d tsd -g 1
+
+```
+The output is found in js/data/tsd/pred.out.
+
+* wasser-gan
+
+```bash
+cd wasser
+../util/generate.sh -d tsd -g 1
+
+````
+-d : dataset name
+-g : GPU ID
+
+The result in wasser/data/tsd/pred.out.
+
+#### Detokenization
+
+***generate.sh*** gives you a result in a sentence-piece format. Running the following will turn it into a normal text.
+
+```bash
+cd js
+../util/decode_spm.sh 
+````
+You find the result in js/data/tsd/pred_decoded.txt.
+
 ## Data
 
 The training data (found in ./data) comes from [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). Both the training and test sets are referred to as 'tsd' in our setup.
@@ -59,15 +77,15 @@ The training data (found in ./data) comes from [the sscorpus](https://github.com
 ## References
 
 ```bibtex
-  @misc{https://doi.org/10.48550/arxiv.2204.00741,
-  doi = {10.48550/ARXIV.2204.00741},
-  url = {https://arxiv.org/abs/2204.00741},
-  author = {Nomoto, Tadashi},
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Learning to Simplify with Data Hopelessly Out of Alignment},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+@misc{https://doi.org/10.48550/arxiv.2204.00741,
+doi = {10.48550/ARXIV.2204.00741},
+url = {https://arxiv.org/abs/2204.00741},
+author = {Nomoto, Tadashi},
+keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+title = {Learning to Simplify with Data Hopelessly Out of Alignment},
+publisher = {arXiv},
+year = {2022},
+copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
 ```
 ```bibtex

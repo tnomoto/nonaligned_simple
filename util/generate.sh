@@ -2,7 +2,7 @@
 
 
 POSITIONAL=()
-while getopts "v:m:o:d:" o; do
+while getopts "d:g:" o; do
     case "${o}" in
 	# v)
 	#     VER=${OPTARG}
@@ -12,9 +12,9 @@ while getopts "v:m:o:d:" o; do
 	    DD=${OPTARG}
 	    ;;
 
-	# m)
-	#     MODEL=${OPTARG}
-	#     ;;
+	g)
+	    GPU=${OPTARG}
+	    ;;
 	# o)
 	#     OUTPUT=${OPTARG}
 	#     ;;
@@ -45,7 +45,7 @@ VER=_best
 echo $PRJ
 
 
-CUDA_VISIBLE_DEVICES=1 python ${BIN}/interactive.py ${PRJ}/data_bin \
+CUDA_VISIBLE_DEVICES=${GPU} python ${BIN}/interactive.py ${PRJ}/data_bin \
       --task multilingual_translation --source-lang ar --target-lang ke\
       --path ${PRJ}/checkpoints/${MODEL}/checkpoint${VER}.pt \
       --batch-size 1 \

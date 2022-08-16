@@ -32,7 +32,7 @@ DX=${PWD}/data/${DIR}
 SPM=${PWD}/data/${DIR}/xmlcnn/data/spm.model
 
 
-../util/spm_write_riper.py -o $DX/riper_wiki.txt -r $DX/xmlcnn/data/oo_test.ar -a $DX/pred.out  -n 1 -p ${SPM} 
+../util/spm_write_riper.py -o $DX/pred_decoded.txt -r $DX/xmlcnn/data/oo_test.ar -a $DX/pred.out  -n 1 -p ${SPM} 
 
 
 
