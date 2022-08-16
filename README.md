@@ -31,9 +31,9 @@ cd wasser
 
 ````
 
--d : dataset name
--b : batch size
--g : GPU ID
+-d : dataset name <br/>
+-b : batch size<br/>
+-g : GPU ID<br/>
 
 ### Generation
 
@@ -53,8 +53,8 @@ cd wasser
 ../util/generate.sh -d tsd -g 1
 
 ````
--d : dataset name
--g : GPU ID
+-d : dataset name <br/>
+-g : GPU ID <br/>
 
 The result in wasser/data/tsd/pred.out.
 
