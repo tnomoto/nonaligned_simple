@@ -39,6 +39,9 @@ cd wasser
 
 ### Generation
 
+## Using pre-trained models
+
+
 As a trained model is provided as part of the package, you can bypass training and go to the generation step directly. Here is what you do. 
 
 * js-gan
@@ -74,9 +77,8 @@ You find the result in js/data/tsd/pred_decoded.txt.
 
 ## Data
 
-The training data (in ./data) is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We removed source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). 
+You need to separetly download [data](https://1drv.ms/u/s!Ahv4QmK34dXhgQ13G4Pr5vG_njS4) and depoy in the project top directory. The training data is based on [the sscorpus](https://github.com/tmu-nlp/sscorpus). We removed source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017). 
 
-					  
 
 ## References
 
