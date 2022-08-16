@@ -71,7 +71,7 @@ cd wasser
 
 The result in wasser/data/tsd/pred.out.
 
-## Detokenization
+### Detokenization
 
 ***generate.sh*** gives you a result in a sentence-piece format. Running the following will restore it into a normal text.
 
