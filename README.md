@@ -45,7 +45,7 @@ cd wasser
 
 ## Generation
 
-## Using pre-trained models
+### Using pre-trained models
 
 
 As a trained model is provided as part of the package, you can bypass training and go to the generation step directly. Here is what you do. 
