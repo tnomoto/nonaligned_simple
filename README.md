@@ -15,7 +15,7 @@ This is a source code that supplements a paper: <br/>
 
 ## Installing
 
-Download the following and untar at the project's top directory.
+Download and untar the following at the project's top directory.
 
 * [asset.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRH_zzprmcuByqm4)
 * [js-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRIUDqy4Q39JAXIg)
@@ -71,7 +71,7 @@ cd wasser
 
 The result in wasser/data/tsd/pred.out.
 
-#### Detokenization
+## Detokenization
 
 ***generate.sh*** gives you a result in a sentence-piece format. Running the following will restore it into a normal text.
 
