@@ -19,7 +19,7 @@ Download and untar the following at the project's top directory.
 
 * [asset.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRH_zzprmcuByqm4)
 * [js-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRIUDqy4Q39JAXIg)
-* [wasser-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRPTdT6icsRPTh1T)
+* [wasser-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRSuiAp--PeQbDUr)
 
 
 ## Training
