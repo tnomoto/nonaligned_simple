@@ -21,6 +21,14 @@ Download and untar the following at the project's top directory.
 * [js-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRIUDqy4Q39JAXIg)
 * [wasser-resource.tar.bz2](https://1drv.ms/u/s!Ahv4QmK34dXhgRSuiAp--PeQbDUr)
 
+```bash
+cd nonaligned_simple
+tar jxvf asset.tar.bz2
+tar jxvf js-resource.tar.bz2
+tar jxvf wasser-resource.tar.bz2
+
+```
+
 
 ## Training
 
