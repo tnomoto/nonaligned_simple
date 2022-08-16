@@ -53,18 +53,7 @@ cd wasser
 ## Data
 
 The training data (found in ./data) comes from [the sscorpus](https://github.com/tmu-nlp/sscorpus). We reducted source/target pairs whose similarity exceeds 0.65. The test set is the same as one used by Zhang, et al (2017).
-```bibtex
-@inproceedings{zhang-lapata-2017-sentence,
-title = "Sentence Simplification with Deep Reinforcement Learning",
-author = "Zhang, Xingxing  and Lapata, Mirella",
-booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
-month = sep,
-year = "2017",
-address = "Copenhagen, Denmark",
-publisher = "Association for Computational Linguistics",
-url = "https://aclanthology.org/D17-1062",
- }
- ```
+
 					  
 
 ## References
@@ -81,4 +70,15 @@ url = "https://aclanthology.org/D17-1062",
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
 ```
-
+```bibtex
+@inproceedings{zhang-lapata-2017-sentence,
+title = "Sentence Simplification with Deep Reinforcement Learning",
+author = "Zhang, Xingxing  and Lapata, Mirella",
+booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+month = sep,
+year = "2017",
+address = "Copenhagen, Denmark",
+publisher = "Association for Computational Linguistics",
+url = "https://aclanthology.org/D17-1062",
+ }
+ ```
